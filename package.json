@@ -1,0 +1,32 @@
+{
+  "name": "brainframe",
+  "version": "0.0.1",
+  "description": "A powerful open-source zettelkasten-style notebook written in ClojureScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nbb -m jaidetree.brainframe.cli",
+    "nbb": "nbb",
+    "test": "nbb -m jaidetree.tests.runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaidetree/brainframe.git"
+  },
+  "keywords": [
+    "cljs",
+    "clojure",
+    "clojurescript",
+    "notebook",
+    "zettelkasten"
+  ],
+  "author": "jaide <jayzawrotny@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jaidetree/brainframe/issues"
+  },
+  "homepage": "https://github.com/jaidetree/brainframe#readme",
+  "dependencies": {
+    "baconjs": "^3.0.17",
+    "nbb": "^1.2.189"
+  }
+}
